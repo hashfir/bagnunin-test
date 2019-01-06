@@ -21,7 +21,7 @@ class Deal extends React.Component {
               <img
                 class="card-img-top"
                 src="https://firebasestorage.googleapis.com/v0/b/profile-b10e7.appspot.com/o/1_y6C4nSvy2Woe0m7bWEn4BA.png?alt=media&token=7ef93357-b24c-43cd-9005-742b45dab190"
-                alt="Card image cap"
+                alt=" "
               />
               <div class="card-body bg-warning">
                 <h5 class="card-title">cet kuas</h5>
@@ -34,7 +34,7 @@ class Deal extends React.Component {
               <img
                 class="card-img-top"
                 src="https://firebasestorage.googleapis.com/v0/b/profile-b10e7.appspot.com/o/1_y6C4nSvy2Woe0m7bWEn4BA.png?alt=media&token=7ef93357-b24c-43cd-9005-742b45dab190"
-                alt="Card image cap"
+                alt=" "
               />
               <div class="card-body bg-warning">
                 <h5 class="card-title">cet</h5>
@@ -47,7 +47,7 @@ class Deal extends React.Component {
               <img
                 class="card-img-top"
                 src="https://firebasestorage.googleapis.com/v0/b/profile-b10e7.appspot.com/o/1_y6C4nSvy2Woe0m7bWEn4BA.png?alt=media&token=7ef93357-b24c-43cd-9005-742b45dab190"
-                alt="Card image cap"
+                alt=" "
               />
               <div class="card-body bg-warning">
                 <h5 class="card-title">paku</h5>

@@ -8,8 +8,16 @@ class Headernav extends React.Component {
     const social = {
       button: {
         marginRight: "10px"
+      },
+      setWidth: {
+        width: "160px",
+        marginTop: "-10px"
+      },
+      setWidthNav: {
+        width: "160px"
       }
     };
+
     const dropPosition = {
       height: "350px",
       width: "350px"
@@ -20,8 +28,12 @@ class Headernav extends React.Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark py-3">
         <div className="container">
-          <a className="navbar-brand font-weight-bold text-warning" href="/">
-            Navbar
+          <a style={social.setWidthNav} href="/">
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/bangunin-98794.appspot.com/o/bangunin-nav-logo.png?alt=media&token=a17a62b8-b9a1-40c6-9482-237094c6a38c"
+              style={social.setWidth}
+              alt=" "
+            />
           </a>
           <button
             className="navbar-toggler"

@@ -2,7 +2,7 @@ import React from "react";
 
 const positionCarousel = {
   margin: "auto",
-  width: "70%",
+  width: "100%",
   padding: "10px"
 };
 class Carousel extends React.Component {
