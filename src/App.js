@@ -9,7 +9,7 @@ import Search from "./body/search/search";
 const divStyle = {
   top: "10px",
   maxWidth: "100%",
-  height: "580px"
+  height: "520px"
 };
 class App extends Component {
   render() {

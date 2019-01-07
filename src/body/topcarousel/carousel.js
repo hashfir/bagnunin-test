@@ -27,21 +27,21 @@ class Carousel extends React.Component {
           <div className="carousel-item active">
             <img
               className="d-block w-10"
-              src="https://firebasestorage.googleapis.com/v0/b/profile-b10e7.appspot.com/o/CMS_Creative_164657191_Kingfisher.jpg?alt=media&token=b9c09765-4549-4623-adba-9e116f22ceea"
+              src="https://firebasestorage.googleapis.com/v0/b/bangunin-98794.appspot.com/o/greeting.jpg?alt=media&token=02f4038c-bdd3-41ef-b1a7-b1c2ba0750f2"
               alt="First slide"
             />
           </div>
           <div className="carousel-item">
             <img
               className="d-block w-10"
-              src="https://firebasestorage.googleapis.com/v0/b/profile-b10e7.appspot.com/o/FD_image.jpg?alt=media&token=43978daf-da19-4e4a-a52e-c5301fe84393"
+              src="https://firebasestorage.googleapis.com/v0/b/bangunin-98794.appspot.com/o/greeting%202.jpg?alt=media&token=178ab959-613f-4004-9702-6c81bf255721"
               alt="Second slide"
             />
           </div>
           <div className="carousel-item">
             <img
               className="d-block w-10"
-              src="https://firebasestorage.googleapis.com/v0/b/profile-b10e7.appspot.com/o/visual-reverse-image-search-v2_1000x560.jpg?alt=media&token=bf3bbfa5-2948-4b19-b387-9b3e5af9fd84"
+              src="https://firebasestorage.googleapis.com/v0/b/bangunin-98794.appspot.com/o/greeting2.jpg?alt=media&token=c74b3eb0-107c-4c88-80c3-3a32a0a6f669"
               alt="Third slide"
             />
           </div>
