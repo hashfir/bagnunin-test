@@ -19,8 +19,8 @@ class Headernav extends React.Component {
     };
 
     const dropPosition = {
-      height: "350px",
-      width: "350px"
+      height: "340px",
+      width: "340px"
     };
     const input = {
       width: "270px"
@@ -93,10 +93,11 @@ class Headernav extends React.Component {
                         className="btn btn-primary"
                         style={social.button}
                       >
-                        <i class="fa fa-facebook" /> Facebook
+                        <i class="fab fa-facebook-f mr-1" />
+                        Facebook
                       </button>
                       <button type="button" className="btn btn-info">
-                        <i class="fa fa-twitter" /> Twitter
+                        <i class="fab fa-twitter mr-1" /> Twitter
                       </button>
                     </div>
                     <hr />

@@ -1,4 +1,5 @@
 import React from "react";
+import "./category.css";
 
 class Category extends React.Component {
   render() {
@@ -16,100 +17,70 @@ class Category extends React.Component {
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-1">
-            <div class="card-body border border-warning">
+          <div class="col-sm-1 h-100 mr-1 mw-100 border border-warning cardHover important ">
+            <div class="card-body">
               <i class="fa fa-code" />
-            </div>
-            <div class="card-footer-sm">
-              <p class="text-warning bg-dark text-center">test </p>
+              <p class="mb-0">roof</p>
             </div>
           </div>
-          <div class="col-sm-1">
-            <div class="card-body border border-warning">
+          <div class="col-sm-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
+            <div class="card-body ">
               <i class="fa fa-code" />
-            </div>
-            <div class="card-footer-sm">
-              <p class="text-warning bg-dark text-center">test </p>
+              <p class="mb-0">roof</p>
             </div>
           </div>
-          <div class="col-sm-1">
-            <div class="card-body border border-warning">
+          <div class="col-sm-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
+            <div class="card-body">
               <i class="fa fa-code" />
-            </div>
-            <div class="card-footer-sm">
-              <p class="text-warning bg-dark text-center">test </p>
+              <p class="mb-0">roof</p>
             </div>
           </div>
-          <div class="col-sm-1">
-            <div class="card-body border border-warning">
+          <div class="col-sm-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
+            <div class="card-body ">
               <i class="fa fa-code" />
-            </div>
-            <div class="card-footer-sm">
-              <p class="text-warning bg-dark text-center">test </p>
+              <p class="mb-0">roof</p>
             </div>
           </div>
-          <div class="col-sm-1">
-            <div class="card-body border border-warning">
+          <div class="col-sm-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
+            <div class="card-body">
               <i class="fa fa-code" />
-            </div>
-            <div class="card-footer-sm">
-              <p class="text-warning bg-dark text-center">test </p>
+              <p class="mb-0">roof</p>
             </div>
           </div>
-          <div class="col-sm-1">
-            <div class="card-body border border-warning">
+          <div class="col-sm-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
+            <div class="card-body ">
               <i class="fa fa-code" />
-            </div>
-            <div class="card-footer-sm">
-              <p class="text-warning bg-dark text-center">test </p>
+              <p class="mb-0">roof</p>
             </div>
           </div>
-          <div class="col-sm-1">
-            <div class="card-body border border-warning">
+          <div class="col-sm-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
+            <div class="card-body">
               <i class="fa fa-code" />
-            </div>
-            <div class="card-footer-sm">
-              <p class="text-warning bg-dark text-center">test </p>
+              <p class="mb-0">roof</p>
             </div>
           </div>
-          <div class="col-sm-1">
-            <div class="card-body border border-warning">
+          <div class="col-sm-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
+            <div class="card-body ">
               <i class="fa fa-code" />
-            </div>
-            <div class="card-footer-sm">
-              <p class="text-warning bg-dark text-center">test </p>
+              <p class="mb-0">roof</p>
             </div>
           </div>
-          <div class="col-sm-1">
-            <div class="card-body border border-warning">
+          <div class="col-sm-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
+            <div class="card-body">
               <i class="fa fa-code" />
-            </div>
-            <div class="card-footer-sm">
-              <p class="text-warning bg-dark text-center">test </p>
+              <p class="mb-0">roof</p>
             </div>
           </div>
-          <div class="col-sm-1">
-            <div class="card-body border border-warning">
+          <div class="col-sm-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
+            <div class="card-body ">
               <i class="fa fa-code" />
-            </div>
-            <div class="card-footer-sm">
-              <p class="text-warning bg-dark text-center">test </p>
+              <p class="mb-0">roof</p>
             </div>
           </div>
-          <div class="col-sm-1">
-            <div class="card-body border border-warning">
+          <div class="col-sm-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
+            <div class="card-body">
               <i class="fa fa-code" />
-            </div>
-            <div class="card-footer-sm">
-              <p class="text-warning bg-dark text-center">test </p>
-            </div>
-          </div>
-          <div class="col-sm-1">
-            <div class="card-body border border-warning">
-              <i class="fa fa-code" />
-            </div>
-            <div class="card-footer-sm">
-              <p class="text-warning bg-dark text-center">test </p>
+              <p class="mb-0">roof</p>
             </div>
           </div>
         </div>
