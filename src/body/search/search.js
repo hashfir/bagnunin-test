@@ -6,7 +6,6 @@ const style = {
   }
 };
 class Search extends React.Component {
-  state = {};
   render() {
     return (
       <div className="card border border-dark" style={style.top}>

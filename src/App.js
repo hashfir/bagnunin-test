@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
-import Header from "./header";
+import Headernav from "./header/header";
+import Nav from "./header/nav";
 import Carousel from "./body/topcarousel/carousel";
 import Category from "./body/category/category";
 import Deal from "./body/hotdeal/hotdeal";
@@ -15,22 +16,23 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header />
-        <div className="bg-warning" style={divStyle}>
-          <div className="container">
-            <div className="row">
-              <div className="col-12 col-md-8 mr-0">
-                <Carousel />
-              </div>
-              <div className="col-6 col-md-4 ml-0">
-                <Search />
-              </div>
-            </div>
-          </div>
+        <Nav />
+        <div>
+          <Headernav />
         </div>
         <div>
           <Category />
         </div>
+        <div className="bg-warning mt-5" style={divStyle}>
+          <div className="container">
+            <Carousel />
+
+            {/* <div className="col-6 col-md-4 ml-0">
+                <Search />
+              </div> */}
+          </div>
+        </div>
+
         <div className="top">
           <Deal />
         </div>

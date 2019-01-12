@@ -1,10 +1,8 @@
 import React from "react";
+import "./header.css";
 
 class Headernav extends React.Component {
   render() {
-    const navLogo = {
-      top: "4px"
-    };
     const social = {
       button: {
         marginRight: "10px"
@@ -15,18 +13,14 @@ class Headernav extends React.Component {
       },
       setWidthNav: {
         width: "160px"
+      },
+      setWidthSearch: {
+        width: "500px"
       }
     };
 
-    const dropPosition = {
-      height: "340px",
-      width: "340px"
-    };
-    const input = {
-      width: "270px"
-    };
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-secondary py-3">
         <div className="container">
           <a style={social.setWidthNav} href="/">
             <img
@@ -35,40 +29,38 @@ class Headernav extends React.Component {
               alt=" "
             />
           </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button className="navbar-toggler" type="button">
             <span className="navbar-toggler-icon" />
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
-              <li className="nav-item active">
-                <a className="nav-link" href="/">
-                  Home <span className="sr-only">(current)</span>
-                </a>
+              <li>
+                <form class="form-inline pl-5">
+                  <input
+                    class="form-control border-warning"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                    style={social.setWidthSearch}
+                  />
+                  <span class="input-group-append">
+                    <button class="btn btn-outline-warning" type="button">
+                      <i class="fa fa-search" />
+                    </button>
+                  </span>
+                </form>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Link
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link disabled" href="/">
-                  Disabled
-                </a>
+              <li className="nav-item ml-3">
+                <button className="btn btn-warning ">
+                  <i class="fas fa-truck">kirim ke?</i>
+                </button>
               </li>
             </ul>
             <ul class="navbar-nav ml-auto">
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <a
-                  className="nav-link dropdown-toggle text-warning"
+                  className="nav-link border border-warning dropdown-toggle text-warning"
                   href="/"
                   id="navbarDropdown"
                   role="button"
@@ -79,9 +71,8 @@ class Headernav extends React.Component {
                   Login
                 </a>
                 <div
-                  className="dropdown-menu bg-dark"
+                  className="dropPosition dropdown-menu bg-dark"
                   aria-labelledby="navbarDropdown"
-                  style={dropPosition}
                 >
                   <div className="container">
                     <p class="hint-text text-light">
@@ -104,7 +95,7 @@ class Headernav extends React.Component {
                     <div className="text-warning">
                       <b>or</b>
                     </div>
-                    <div className="form-group" style={input}>
+                    <div className="input form-group">
                       <input
                         type="text"
                         className="form-control input-sm"
@@ -112,7 +103,7 @@ class Headernav extends React.Component {
                         required="required"
                       />
                     </div>
-                    <div className="form-group" style={input}>
+                    <div className="input form-group">
                       <input
                         type="password"
                         className="form-control input-sm"
@@ -132,11 +123,8 @@ class Headernav extends React.Component {
                 </div>
               </li>
               <li className="nav-item">
-                <span
-                  className="nav-link fa fa-user text-warning"
-                  style={navLogo}
-                />
-              </li>
+                <span className=" navLogo nav-link fa fa-user text-warning" />
+              </li> */}
             </ul>
           </div>
         </div>
