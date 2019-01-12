@@ -2,3 +2,8 @@ div.cardHover:hover {
   background-color: #343a40;
   color: #ffc107;
 }
+
+.iconLogo {
+  height: 50px;
+  width: 37px;
+}
