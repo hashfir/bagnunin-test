@@ -23,7 +23,7 @@ class App extends Component {
         <div>
           <Category />
         </div>
-        <div className="bg-warning mt-5" style={divStyle}>
+        <div className="bg-warning mt-2" style={divStyle}>
           <div className="container">
             <Carousel />
 
@@ -32,8 +32,7 @@ class App extends Component {
               </div> */}
           </div>
         </div>
-
-        <div className="top">
+        <div>
           <Deal />
         </div>
       </div>
