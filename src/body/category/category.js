@@ -9,7 +9,7 @@ class Category extends React.Component {
           <h2>Category</h2>
 
           <div class="row">
-            <div class="col-sm-1 h-100 mr-1 mw-100 border border-warning cardHover important ">
+            <div class="col-xs-1 h-100 mr-1 mw-100 border border-warning cardHover important ">
               <div class="card-body">
                 <img
                   class="iconLogo mb-2"
@@ -19,7 +19,7 @@ class Category extends React.Component {
                 <p class="mb-0">Paint</p>
               </div>
             </div>
-            <div class="col-sm-1 h-100 mr-1 mw-100 border border-warning cardHover important ">
+            <div class="col-xs-1 h-100 mr-1 mw-100 border border-warning cardHover important ">
               <div class="card-body">
                 <img
                   class="iconLogo mb-2"
@@ -29,55 +29,55 @@ class Category extends React.Component {
                 <p class="mb-0">Tools</p>
               </div>
             </div>
-            <div class="col-sm-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
+            <div class="col-xs-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
               <div class="card-body">
                 <i class="fa fa-code" />
                 <p class="mb-0">roof</p>
               </div>
             </div>
-            <div class="col-sm-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
+            <div class="col-xs-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
               <div class="card-body ">
                 <i class="fa fa-code" />
                 <p class="mb-0">roof</p>
               </div>
             </div>
-            <div class="col-sm-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
+            <div class="col-xs-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
               <div class="card-body">
                 <i class="fa fa-code" />
                 <p class="mb-0">roof</p>
               </div>
             </div>
-            <div class="col-sm-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
+            <div class="col-xs-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
               <div class="card-body ">
                 <i class="fa fa-code" />
                 <p class="mb-0">roof</p>
               </div>
             </div>
-            <div class="col-sm-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
+            <div class="col-xs-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
               <div class="card-body">
                 <i class="fa fa-code" />
                 <p class="mb-0">roof</p>
               </div>
             </div>
-            <div class="col-sm-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
+            <div class="col-xs-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
               <div class="card-body ">
                 <i class="fa fa-code" />
                 <p class="mb-0">roof</p>
               </div>
             </div>
-            <div class="col-sm-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
+            <div class="col-xs-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
               <div class="card-body">
                 <i class="fa fa-code" />
                 <p class="mb-0">roof</p>
               </div>
             </div>
-            <div class="col-sm-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
+            <div class="col-xs-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
               <div class="card-body ">
                 <i class="fa fa-code" />
                 <p class="mb-0">roof</p>
               </div>
             </div>
-            <div class="col-sm-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
+            <div class="col-xs-1 h-50 mr-1 mw-100 border border-warning cardHover important ">
               <div class="card-body">
                 <i class="fa fa-code" />
                 <p class="mb-0">roof</p>

@@ -7,7 +7,7 @@ class Deal extends React.Component {
         <div class="container">
           <h2>Hot Deal</h2>
           <div class="row">
-            <div class="col">
+            <div class="col-md">
               <div class="card">
                 <img
                   class="card-img-top"
@@ -20,7 +20,7 @@ class Deal extends React.Component {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col-md">
               <div class="card">
                 <img
                   class="card-img-top"
@@ -33,7 +33,7 @@ class Deal extends React.Component {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col-md">
               <div class="card">
                 <img
                   class="card-img-top"
@@ -46,7 +46,7 @@ class Deal extends React.Component {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col-md">
               <div class="card">
                 <img
                   class="card-img-top"
