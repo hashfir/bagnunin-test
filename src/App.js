@@ -6,6 +6,7 @@ import Carousel from "./body/topcarousel/carousel";
 import Category from "./body/category/category";
 import Deal from "./body/hotdeal/hotdeal";
 import Search from "./body/search/search";
+import Inspire from "./body/inspire/inspire";
 
 const divStyle = {
   top: "10px",
@@ -34,6 +35,9 @@ class App extends Component {
         </div>
         <div>
           <Deal />
+        </div>
+        <div>
+          <Inspire />
         </div>
       </div>
     );
