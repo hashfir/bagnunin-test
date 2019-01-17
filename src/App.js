@@ -2,11 +2,14 @@ import React, { Component } from "react";
 import "./App.css";
 import Headernav from "./header/header";
 import Nav from "./header/nav";
+import Footer from "./footer";
 import Carousel from "./body/topcarousel/carousel";
 import Category from "./body/category/category";
 import Deal from "./body/hotdeal/hotdeal";
 import Search from "./body/search/search";
 import Inspire from "./body/inspire/inspire";
+import Partner from "./body/partner/partner";
+import Why from "./body/partner/whybangunin";
 
 const divStyle = {
   top: "10px",
@@ -38,6 +41,15 @@ class App extends Component {
         </div>
         <div>
           <Inspire />
+        </div>
+        <div>
+          <Partner />
+        </div>
+        <div class="mb-5">
+          <Why />
+        </div>
+        <div class="pt-5">
+          <Footer />
         </div>
       </div>
     );
