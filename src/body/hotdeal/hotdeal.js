@@ -1,22 +1,31 @@
 import React from "react";
+import "../body.css";
 
 class Deal extends React.Component {
   render() {
     return (
       <div className="border shadow-lg container pb-2 mt-2 pl-0 pr-0">
         <div class="container">
-          <h2>Hot Deal</h2>
+          <div class="d-flex">
+            <h2 class="mt-3 mb-3">Hot Deal</h2>
+            <a href="/" class="ml-auto p-2 textLink mt-2">
+              See More...
+            </a>
+          </div>
           <div class="row">
             <div class="col-md">
               <div class="card">
                 <img
                   class="card-img-top"
-                  src="https://firebasestorage.googleapis.com/v0/b/profile-b10e7.appspot.com/o/1_y6C4nSvy2Woe0m7bWEn4BA.png?alt=media&token=7ef93357-b24c-43cd-9005-742b45dab190"
+                  src="https://firebasestorage.googleapis.com/v0/b/hashfi-8f1e0.appspot.com/o/hot-deal.jpg?alt=media&token=c47bec8f-9dca-4eec-9b08-10225b7daaaa"
                   alt=" "
                 />
-                <div class="card-body bg-warning">
-                  <h5 class="card-title">cet kuas</h5>
-                  <p class="card-text">test</p>
+                <div class="card-body cardbodyStyle bg-warning">
+                  <h5 class="card-title">Toto Bathub White</h5>
+                  <strike class=" text-muted">Rp 12.000.000</strike>
+                  <h4 class="card-tex font-weight-bold text-dark">
+                    Rp 5.000.000
+                  </h4>
                 </div>
               </div>
             </div>
@@ -24,12 +33,13 @@ class Deal extends React.Component {
               <div class="card">
                 <img
                   class="card-img-top"
-                  src="https://firebasestorage.googleapis.com/v0/b/profile-b10e7.appspot.com/o/1_y6C4nSvy2Woe0m7bWEn4BA.png?alt=media&token=7ef93357-b24c-43cd-9005-742b45dab190"
+                  src="https://firebasestorage.googleapis.com/v0/b/hashfi-8f1e0.appspot.com/o/Roll.jpg?alt=media&token=5e6a6f10-5849-4756-b9b5-b40c06b6512d"
                   alt=" "
                 />
-                <div class="card-body bg-warning">
-                  <h5 class="card-title">cet</h5>
-                  <p class="card-text">test</p>
+                <div class="card-body cardbodyStyle bg-warning">
+                  <h5 class="card-title">Roll Brush</h5>
+                  <strike class=" text-muted">Rp 12.000</strike>
+                  <h4 class="card-tex font-weight-bold text-dark">Rp 5.000</h4>
                 </div>
               </div>
             </div>
@@ -37,12 +47,15 @@ class Deal extends React.Component {
               <div class="card">
                 <img
                   class="card-img-top"
-                  src="https://firebasestorage.googleapis.com/v0/b/profile-b10e7.appspot.com/o/1_y6C4nSvy2Woe0m7bWEn4BA.png?alt=media&token=7ef93357-b24c-43cd-9005-742b45dab190"
+                  src="https://firebasestorage.googleapis.com/v0/b/hashfi-8f1e0.appspot.com/o/hot-deal.jpg?alt=media&token=c47bec8f-9dca-4eec-9b08-10225b7daaaa"
                   alt=" "
                 />
-                <div class="card-body bg-warning">
-                  <h5 class="card-title">paku</h5>
-                  <p class="card-text">cc</p>
+                <div class="card-body cardbodyStyle bg-warning">
+                  <h5 class="card-title">Toto Bathub White</h5>
+                  <strike class=" text-muted">Rp 12.000.000</strike>
+                  <h4 class="card-tex font-weight-bold text-dark">
+                    Rp 5.000.000
+                  </h4>
                 </div>
               </div>
             </div>
@@ -50,12 +63,13 @@ class Deal extends React.Component {
               <div class="card">
                 <img
                   class="card-img-top"
-                  src="https://firebasestorage.googleapis.com/v0/b/profile-b10e7.appspot.com/o/1_y6C4nSvy2Woe0m7bWEn4BA.png?alt=media&token=7ef93357-b24c-43cd-9005-742b45dab190"
+                  src="https://firebasestorage.googleapis.com/v0/b/hashfi-8f1e0.appspot.com/o/Roll.jpg?alt=media&token=5e6a6f10-5849-4756-b9b5-b40c06b6512d"
                   alt=" "
                 />
-                <div class="card-body bg-warning">
-                  <h5 class="card-title">paku</h5>
-                  <p class="card-text">cc</p>
+                <div class="card-body cardbodyStyle bg-warning">
+                  <h5 class="card-title">Roll Brush</h5>
+                  <strike class=" text-muted">Rp 12.000</strike>
+                  <h4 class="card-tex font-weight-bold text-dark">Rp 5.000</h4>
                 </div>
               </div>
             </div>

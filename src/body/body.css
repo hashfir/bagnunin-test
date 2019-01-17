@@ -1,0 +1,10 @@
+.cardbodyStyle {
+  height: 137px;
+}
+.textLink:hover {
+  color: #000000;
+}
+
+.textLink {
+  color: #ffc107;
+}

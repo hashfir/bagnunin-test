@@ -1,4 +1,5 @@
 import React from "react";
+import "../body.css";
 
 class Inspire extends React.Component {
   render() {
@@ -7,9 +8,14 @@ class Inspire extends React.Component {
       height: "600px"
     };
     return (
-      <div className="border shadow-lg container pb-2 mt-5 pl-0 pr-0">
+      <div className="border shadow-lg container pb-2 mt-5 pl-0 pr-4">
         <div class="container">
-          <h2>Inspirasi Design</h2>
+          <div class="d-flex">
+            <h2 class="mt-3 mb-3">Inspirasi Design</h2>
+            <a href="/" class="ml-auto p-2 textLink mt-2">
+              See More...
+            </a>
+          </div>
           <div class="row">
             <div class="col-md-4 pr-0">
               <div class="card">

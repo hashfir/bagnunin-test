@@ -27,21 +27,21 @@ class Carousel extends React.Component {
           <div className="carousel-item active">
             <img
               className="d-block w-10"
-              src="https://firebasestorage.googleapis.com/v0/b/bangunin-98794.appspot.com/o/greeting.jpg?alt=media&token=02f4038c-bdd3-41ef-b1a7-b1c2ba0750f2"
+              src="https://firebasestorage.googleapis.com/v0/b/bangunin-98794.appspot.com/o/greeting.jpg?alt=media&token=490ffd95-374b-4cf2-b948-00e5b99a3740"
               alt="First slide"
             />
           </div>
           <div className="carousel-item">
             <img
               className="d-block w-10"
-              src="https://firebasestorage.googleapis.com/v0/b/bangunin-98794.appspot.com/o/greeting%202.jpg?alt=media&token=178ab959-613f-4004-9702-6c81bf255721"
+              src="https://firebasestorage.googleapis.com/v0/b/bangunin-98794.appspot.com/o/greeting%202.jpg?alt=media&token=f81baadf-7ca7-4cb0-a138-bb05b6fad43e"
               alt="Second slide"
             />
           </div>
           <div className="carousel-item">
             <img
               className="d-block w-10"
-              src="https://firebasestorage.googleapis.com/v0/b/bangunin-98794.appspot.com/o/greeting2.jpg?alt=media&token=c74b3eb0-107c-4c88-80c3-3a32a0a6f669"
+              src="https://firebasestorage.googleapis.com/v0/b/bangunin-98794.appspot.com/o/greeting2.jpg?alt=media&token=3b197ece-546b-4f3c-9883-05684fc77237"
               alt="Third slide"
             />
           </div>
