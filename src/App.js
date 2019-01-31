@@ -6,7 +6,7 @@ import Footer from "./footer";
 import Carousel from "./body/topcarousel/carousel";
 import Category from "./body/category/category";
 import Deal from "./body/hotdeal/hotdeal";
-import Search from "./body/search/search";
+// import Search from "./body/search/search";
 import Inspire from "./body/inspire/inspire";
 import Partner from "./body/partner/partner";
 import Why from "./body/partner/whybangunin";
@@ -16,11 +16,14 @@ const divStyle = {
   maxWidth: "100%",
   height: "520px"
 };
+
 class App extends Component {
   render() {
     return (
       <div>
-        <Nav />
+        <div>
+          <Nav />
+        </div>
         <div>
           <Headernav />
         </div>
